@@ -25,3 +25,30 @@
 body {
     padding: 130px 0;
 }
+
+.jumbotron {
+    height: 600px;
+}
+
+#returnal {
+    background-image: url("../img/jumbo-bg.png");
+    background-position: center;
+    background-size: cover;
+}
+
+/* #returnal [class^="col"] {
+    padding: 15px 30px;
+} */
+
+#buy-now {
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.game-card {
+    border-radius: 10px;
+}
