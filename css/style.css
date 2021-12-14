@@ -13,3 +13,11 @@
 .jumbotron {
     border: 1px dashed purple;
 }
+
+.bg-black {
+    background-color: black;
+}
+
+#logo {
+    height: 15px;
+}
