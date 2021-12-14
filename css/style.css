@@ -52,3 +52,11 @@ img {
 .game-card {
     border-radius: 10px;
 }
+
+.active {
+    border-bottom: 3px solid #3e94da;
+}
+
+.bg-darkgray {
+    background-color: #1f1f1f;
+}
