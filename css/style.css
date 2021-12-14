@@ -62,12 +62,35 @@ body {
     font-size: 15px;
 }
 
+.btn-hover-light:hover {
+    outline: 3px solid white;
+    outline-offset: -5px;
+}
+
+.btn-hover-gray:hover {
+    background-color: #ecebeb;
+}
+
+.btn-hover-white:hover {
+    background-color: #d6d3d3;
+    border-color: #d6d3d3;
+}
+
 img {
     max-width: 100%;
 }
 
 .game-card {
     border-radius: 10px;
+    position: relative;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.game-card:hover {
+    position: relative;
+    bottom: 15px;
+    transition: 0.5s;
 }
 
 .active {
