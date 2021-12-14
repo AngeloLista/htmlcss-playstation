@@ -60,3 +60,19 @@ img {
 .bg-darkgray {
     background-color: #1f1f1f;
 }
+
+.bg-lightgray {
+    background-color: #bebcbb;
+}
+
+.bg-blue {
+    background-color: #00439c;
+}
+
+#globe-icon {
+    height: 15px;
+}
+
+#sie-logo {
+    height: 50px;
+}
