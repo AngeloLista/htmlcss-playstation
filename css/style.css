@@ -2,15 +2,11 @@
     background-color: black;
 }
 
-.jumbotron {
-    border: 1px dashed purple;
-}
-
 .bg-black {
     background-color: black;
 }
 
-#logo {
+#navbar-logo {
     height: 15px;
 }
 
@@ -18,10 +14,6 @@ body {
     padding-top: 110px;
     overflow-x: hidden;
 }
-/* 
-.jumbotron {
-    height: 600px;
-} */
 
 #returnal {
     background-image: url("../img/jumbo-bg.png");
@@ -109,4 +101,9 @@ img {
 .btn-lightgray {
     background-color: #d9dadc;
     border-color: #d9dadc;
+}
+
+.btn-darkergray {
+    background-color: #363636;
+    border-color: #363636;
 }
