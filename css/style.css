@@ -1,0 +1,15 @@
+#top-header {
+    border: 1px solid red;
+}
+
+#bottom-header {
+    border: 1px solid green;
+}
+
+.bg-dark {
+    background-color: black;
+}
+
+.jumbotron {
+    border: 1px dashed purple;
+}
