@@ -16,16 +16,49 @@
 
 body {
     padding-top: 110px;
+    overflow-x: hidden;
 }
-
+/* 
 .jumbotron {
     height: 600px;
-}
+} */
 
 #returnal {
     background-image: url("../img/jumbo-bg.png");
     background-position: center;
     background-size: cover;
+}
+
+#it-takes-two {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.jumbotron-logo {
+    width: 50%;
+}
+
+#playstation-now {
+    background-color: #161c3b;
+    height: 350px;
+}
+
+#ps-now-featured {
+    height: 100%;
+    margin: 0;
+}
+
+.social-logo {
+    height: 100%;
+}
+
+.h-600 {
+    height: 600px;
+}
+
+.text-shadow {
+    text-shadow: #000 0 0 5px;
 }
 
 /* #returnal [class^="col"] {
@@ -71,4 +104,9 @@ img {
 
 #ps-footer-logo {
     height: 50px;
+}
+
+.btn-lightgray {
+    background-color: #d9dadc;
+    border-color: #d9dadc;
 }
