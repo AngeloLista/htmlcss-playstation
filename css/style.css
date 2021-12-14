@@ -1,11 +1,3 @@
-#top-header {
-    border: 1px solid red;
-}
-
-#bottom-header {
-    border: 1px solid green;
-}
-
 .bg-dark {
     background-color: black;
 }
@@ -23,7 +15,7 @@
 }
 
 body {
-    padding: 130px 0;
+    padding-top: 110px;
 }
 
 .jumbotron {
@@ -74,5 +66,9 @@ img {
 }
 
 #sie-logo {
+    height: 50px;
+}
+
+#ps-footer-logo {
     height: 50px;
 }
