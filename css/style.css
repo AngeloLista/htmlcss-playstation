@@ -117,6 +117,7 @@ body {
 #product-hover:hover {
     opacity: 100%;
     border-bottom: 3px solid #3e94da;
+    margin-bottom: 0px;
 }
 
 /* Returnal */
