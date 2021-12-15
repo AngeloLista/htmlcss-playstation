@@ -88,7 +88,7 @@ body {
 /* Returnal */
 #returnal {
     background-image: url("../img/jumbo-bg.png");
-    background-position: center;
+    background-position: top center;
     background-size: cover;
 }
 
