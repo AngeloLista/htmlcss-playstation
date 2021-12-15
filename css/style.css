@@ -1,48 +1,7 @@
-.bg-dark {
-    background-color: black;
-}
 
-.bg-black {
-    background-color: black;
-}
-
-#navbar-logo {
-    height: 15px;
-}
-
-body {
-    padding-top: 110px;
-    overflow-x: hidden;
-}
-
-#returnal {
-    background-image: url("../img/jumbo-bg.png");
-    background-position: center;
-    background-size: cover;
-}
-
-#it-takes-two {
-    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
-    background-position: center;
-    background-size: cover;
-}
-
-.jumbotron-logo {
-    width: 50%;
-}
-
-#playstation-now {
-    background-color: #161c3b;
-    height: 350px;
-}
-
-#ps-now-featured {
-    height: 100%;
-    margin: 0;
-}
-
-.social-logo {
-    height: 100%;
+/* Utilities */
+img {
+    max-width: 100%;
 }
 
 .h-600 {
@@ -53,48 +12,12 @@ body {
     text-shadow: #000 0 0 5px;
 }
 
-/* #returnal [class^="col"] {
-    padding: 15px 30px;
-} */
-
-#rounded-buttons {
-    border-radius: 50px;
-    font-size: 15px;
+.bg-dark {
+    background-color: black;
 }
 
-.btn-hover-light:hover {
-    outline: 3px solid white;
-    outline-offset: -5px;
-}
-
-.btn-hover-gray:hover {
-    background-color: #ecebeb;
-}
-
-.btn-hover-white:hover {
-    background-color: #d6d3d3;
-    border-color: #d6d3d3;
-}
-
-img {
-    max-width: 100%;
-}
-
-.game-card {
-    border-radius: 10px;
-    position: relative;
-    bottom: 0;
-    cursor: pointer;
-}
-
-.game-card:hover {
-    position: relative;
-    bottom: 15px;
-    transition: 0.5s;
-}
-
-.active {
-    border-bottom: 3px solid #3e94da;
+.bg-black {
+    background-color: black;
 }
 
 .bg-darkgray {
@@ -109,6 +32,132 @@ img {
     background-color: #00439c;
 }
 
+.btn-lightgray {
+    background-color: #d9dadc;
+    border-color: #d9dadc;
+}
+
+.btn-darkergray {
+    background-color: #363636;
+    border-color: #363636;
+}
+
+.jumbotron-logo {
+    width: 50%;
+}
+
+body {
+    padding-top: 110px;
+    overflow-x: hidden;
+}
+
+/* Buttons */
+#rounded-buttons {
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+.btn-hover-light:hover {
+    outline: 3px solid white;
+    outline-offset: -5px;
+    filter: brightness(130%);
+}
+
+.btn-hover-gray:hover {
+    background-color: #ecebeb;
+}
+
+.btn-hover-white:hover {
+    background-color: #d6d3d3;
+    border-color: #d6d3d3;
+}
+
+/* Navbar */
+#navbar-logo {
+    height: 15px;
+}
+
+#navbarDropdownMenuLink:hover {
+    color: #0070d1;
+}
+
+.nav-link:hover {
+    filter: invert(27%) sepia(98%) saturate(1407%) hue-rotate(187deg) brightness(97%) contrast(111%);
+}
+
+/* Returnal */
+#returnal {
+    background-image: url("../img/jumbo-bg.png");
+    background-position: center;
+    background-size: cover;
+}
+
+/* It Takes Two */
+#it-takes-two {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+/* PlayStation Pructucs Selection */
+
+.product {
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.product-active {
+    border-bottom: 3px solid #3e94da;
+    opacity: 100%;
+}
+
+/* PlayStiation Now Section */
+#playstation-now {
+    background-color: #161c3b;
+    height: 350px;
+}
+
+#ps-now-featured {
+    height: 100%;
+}
+
+/* Social */
+.social-logo {
+    height: 100%;
+}
+
+.game-card {
+    border-radius: 10px;
+    position: relative;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.jumbo-card {
+    border-radius: 10px;
+    position: relative;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.jumbo-card.active {
+    outline: 5px solid #2d64e6;
+    outline-offset: 3px;
+}
+
+.jumbo-card:hover {
+    position: relative;
+    bottom: 10px;
+    transition: 0.5s;
+}
+
+.discount-card:hover,
+.social-logo:hover,
+.game-card:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+
 #globe-icon {
     height: 15px;
 }
@@ -121,12 +170,7 @@ img {
     height: 50px;
 }
 
-.btn-lightgray {
-    background-color: #d9dadc;
-    border-color: #d9dadc;
-}
-
-.btn-darkergray {
-    background-color: #363636;
-    border-color: #363636;
+#product-hover:hover {
+    opacity: 100%;
+    border-bottom: 3px solid #3e94da;
 }
