@@ -52,11 +52,6 @@ body {
 }
 
 /* Buttons */
-#rounded-buttons {
-    border-radius: 50px;
-    font-size: 15px;
-}
-
 .btn-hover-light:hover {
     outline: 3px solid white;
     outline-offset: -5px;
@@ -83,6 +78,45 @@ body {
 
 .nav-link:hover {
     filter: invert(27%) sepia(98%) saturate(1407%) hue-rotate(187deg) brightness(97%) contrast(111%);
+}
+
+/* Jumbotron */
+.game-card {
+    border-radius: 10px;
+    position: relative;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.jumbo-card {
+    border-radius: 10px;
+    position: relative;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.jumbo-card.active {
+    outline: 5px solid #2d64e6;
+    outline-offset: 3px;
+}
+
+/* Hover Effects */
+.jumbo-card:hover {
+    position: relative;
+    bottom: 10px;
+    transition: 0.5s;
+}
+
+.discount-card:hover,
+.social-logo:hover,
+.game-card:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+
+#product-hover:hover {
+    opacity: 100%;
+    border-bottom: 3px solid #3e94da;
 }
 
 /* Returnal */
@@ -126,38 +160,7 @@ body {
     height: 100%;
 }
 
-.game-card {
-    border-radius: 10px;
-    position: relative;
-    bottom: 0;
-    cursor: pointer;
-}
-
-.jumbo-card {
-    border-radius: 10px;
-    position: relative;
-    bottom: 0;
-    cursor: pointer;
-}
-
-.jumbo-card.active {
-    outline: 5px solid #2d64e6;
-    outline-offset: 3px;
-}
-
-.jumbo-card:hover {
-    position: relative;
-    bottom: 10px;
-    transition: 0.5s;
-}
-
-.discount-card:hover,
-.social-logo:hover,
-.game-card:hover {
-    transform: scale(1.03);
-    transition: 0.3s;
-}
-
+/* Footer */
 #globe-icon {
     height: 15px;
 }
@@ -168,9 +171,4 @@ body {
 
 #ps-footer-logo {
     height: 50px;
-}
-
-#product-hover:hover {
-    opacity: 100%;
-    border-bottom: 3px solid #3e94da;
 }
