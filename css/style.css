@@ -48,7 +48,6 @@ img {
 
 body {
     padding-top: 110px;
-    overflow-x: hidden;
 }
 
 /* Buttons */
@@ -114,11 +113,6 @@ body {
     transition: 0.3s;
 }
 
-#product-hover:hover {
-    opacity: 100%;
-    border-bottom: 3px solid #3e94da;
-    margin-bottom: 0px;
-}
 
 /* Returnal */
 #returnal {
@@ -139,6 +133,14 @@ body {
 .product {
     opacity: 70%;
     cursor: pointer;
+    border-bottom: 3px solid white;
+
+}
+
+
+.product:hover {
+    opacity: 100%;
+    border-bottom: 3px solid #3e94da;
 }
 
 .product-active {
@@ -172,4 +174,8 @@ body {
 
 #ps-footer-logo {
     height: 50px;
+}
+
+#bottom-header {
+    width: calc(100vw - 15px);
 }
